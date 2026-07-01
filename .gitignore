@@ -1,0 +1,11 @@
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+outputs/
+pf_bridge/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powerfactory-mcp-automation"
+version = "0.1.0"
+description = "MCP bridge for natural-language DIgSILENT PowerFactory automation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "PowerFactory MCP contributors" }
+]
+keywords = ["mcp", "powerfactory", "digsilent", "power-system", "automation"]
+dependencies = [
+  "mcp>=1.0.0"
+]
+
+[project.scripts]
+powerfactory-mcp-bridge = "powerfactory_mcp.server_bridge:main"
+powerfactory-mcp-direct = "powerfactory_mcp.server_direct:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

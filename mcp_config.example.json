@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "powerfactory": {
+      "command": "C:/Users/daish/Documents/Auto Power Factory/.venv312/Scripts/python.exe",
+      "args": [
+        "C:/Users/daish/Documents/Auto Power Factory/src/powerfactory_mcp/server_bridge.py"
+      ],
+      "env": {
+        "POWERFACTORY_BRIDGE_DIR": "C:/Users/daish/Documents/Auto Power Factory/pf_bridge",
+        "POWERFACTORY_BRIDGE_TIMEOUT": "120"
+      }
+    }
+  }
+}
